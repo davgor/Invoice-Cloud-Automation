@@ -1,0 +1,6 @@
+{
+    "browser": "chrome",
+    "headless": "true",
+    "size": "1920,1080",
+    "url": "https://the-internet.herokuapp.com/add_remove_elements/"
+}
