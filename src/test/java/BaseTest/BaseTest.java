@@ -48,7 +48,7 @@ public class BaseTest {
 
 	public WebDriver setupChrome() {
 		//Create a Chrome driver. All test and page classes use this driver.
-		System.setProperty("webdriver.chrome.driver", getProjectDirectory() + "/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		System.out.println(getProjectDirectory() + "\\chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
 		if(headless.equals("true")) {
