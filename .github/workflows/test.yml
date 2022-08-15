@@ -17,5 +17,7 @@ jobs:
       with:
         java-version: 18.0.2
     - name: Maven build
-      run: mvn -B package --file pom.xml test
+      run: mvn -B package
+    - name: Maven Test
+      run: mvn test
       
