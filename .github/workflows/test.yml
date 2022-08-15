@@ -17,7 +17,7 @@ jobs:
       with:
         java-version: 18.0.2
     - name: Maven build
-      run: mvn -B package
+      run: mvn install -DskipTests
     - name: Maven Test
       run: mvn test
       
